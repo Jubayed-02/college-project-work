@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rupkotha — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+
+<!-- Floating sparkles -->
+<div class="sparkles" aria-hidden="true">
+  <span class="sparkle" style="left:5%;top:15%;--dur:4.2s;--delay:0s">✦</span>
+  <span class="sparkle" style="left:90%;top:8%;--dur:3.8s;--delay:1s">✧</span>
+  <span class="sparkle" style="left:20%;top:60%;--dur:5.1s;--delay:0.5s">✦</span>
+  <span class="sparkle" style="left:75%;top:45%;--dur:4.5s;--delay:2s">✧</span>
+  <span class="sparkle" style="left:50%;top:80%;--dur:3.5s;--delay:0.8s">✦</span>
+  <span class="sparkle" style="left:38%;top:25%;--dur:6s;--delay:1.5s">✧</span>
+  <span class="sparkle" style="left:65%;top:70%;--dur:4.8s;--delay:0.3s">✦</span>
+  <span class="sparkle" style="left:10%;top:85%;--dur:5.5s;--delay:1.2s">✧</span>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Rupkotha ✿</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-blob blob-1"></div>
+  <div class="hero-blob blob-2"></div>
+  <div class="hero-blob blob-3"></div>
+  <div class="hero-content">
+    <div class="hero-avatar"><img src="assets/rupkotha.jpg" style="width: 100%;height: 100%;object-fit: cover; border-radius: 100%;" alt="Rupkotha's Picture" title="Rupkotha PK"></div>
+    <div class="badge">✨ Available for work</div>
+    <h1>Hi, I'm <em>Rupkotha</em>.</h1>
+    <p class="hero-sub">A UI/UX designer & front-end developer who loves crafting beautiful, thoughtful digital experiences with a sprinkle of magic.</p>
+    <div class="hero-btns">
+      <a href="#work" class="btn btn-primary">See my work 🌷</a>
+      <a href="#contact" class="btn btn-outline">Let's connect</a>
+    </div>
+    <div class="scroll-hint">
+      <span>scroll down</span>
+      <div class="dots-row">
+        <div class="scroll-dot"></div>
+        <div class="scroll-dot"></div>
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-bg" id="about">
+  <div class="container">
+    <div class="section-label">✦ About me</div>
+    <div class="about-inner">
+      <div class="about-img-wrap reveal">
+        <div class="about-img">🎨</div>
+        <div class="about-deco">⭐</div>
+      </div>
+      <div class="about-text reveal">
+        <h3>Designing with heart &amp; intention</h3>
+        <p>I'm a designer and developer based in a cosy corner of the world, passionate about creating interfaces that feel as good as they look. I believe great design is all about empathy — understanding people and crafting experiences they'll love.</p>
+        <p>When I'm not pushing pixels, you'll find me reading fiction, sketching in my notebook, or hunting for the perfect matcha latte. ☕</p>
+        <div class="about-tags">
+          <span class="tag">UI / UX Design</span>
+          <span class="tag mint">Front-end Dev</span>
+          <span class="tag peach">Illustration</span>
+          <!-- <span class="tag">Figma</span> -->
+          <!-- <span class="tag mint">React</span> -->
+          <!-- <span class="tag peach">Motion Design</span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label">✦ What I do</div>
+    <h2>My skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card reveal" data-delay="0">
+        <div class="skill-icon">🎨</div>
+        <h4>UI Design</h4>
+        <p>Crafting pixel-perfect, beautiful interfaces in Figma</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="92"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="100">
+        <div class="skill-icon">🌐</div>
+        <h4>Front-End Dev</h4>
+        <p>HTML, CSS, JavaScript, React — bringing designs to life</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="85"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="200">
+        <div class="skill-icon">🔍</div>
+        <h4>UX Research</h4>
+        <p>User interviews, usability testing, and insights</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="78"></div></div>
+      </div>
+      <div class="skill-card reveal" data-delay="300">
+        <div class="skill-icon">✏️</div>
+        <h4>Illustration</h4>
+        <p>Digital illustration, icons, and visual storytelling</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="80"></div></div>
+      </div>
+      <!-- <div class="skill-card reveal" data-delay="400">
+        <div class="skill-icon">🎬</div>
+        <h4>Motion Design</h4>
+        <p>Micro-animations and smooth interactive transitions</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="72"></div></div>
+      </div> -->
+      <!-- <div class="skill-card reveal" data-delay="500">
+        <div class="skill-icon">🌸</div>
+        <h4>Brand Design</h4>
+        <p>Visual identity, color palettes, and typography systems</p>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="88"></div></div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="work-bg" id="work">
+  <div class="container">
+    <div class="section-label">✦ Portfolio</div>
+    <h2>Selected work</h2>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #fde8d0, #f9b8c8)"><span>🌸</span></div>
+        <div class="project-body">
+          <h4>Blossom — Wellness App</h4>
+          <p>A calming mental wellness app focused on daily check-ins, mood tracking, and breathwork exercises. Designed with a soft, mindful aesthetic.</p>
+          <a href="#" class="project-link">View case study →</a>
+        </div>
+      </div>
+      <div class="project-card reveal" style="animation-delay:0.1s">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #c9f0e4, #e8dff5)"><span>🍃</span></div>
+        <div class="project-body">
+          <h4>Verdant — E-commerce Redesign</h4>
+          <p>Full UX overhaul of a sustainable plant shop — improved checkout flow led to a 35% increase in conversion rate.</p>
+          <a href="#" class="project-link">View case study →</a>
+        </div>
+      </div>
+      <div class="project-card reveal" style="animation-delay:0.2s">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #e8dff5, #f9b8c8)"><span>✨</span></div>
+        <div class="project-body">
+          <h4>Nova — Design System</h4>
+          <p>A comprehensive design system with 80+ components, built for a fast-growing SaaS company to ensure visual consistency at scale.</p>
+          <a href="#" class="project-link">View case study →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <div class="section-label">✦ Kind words</div>
+    <h2>What people say</h2>
+    <div class="testimonials-grid">
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <blockquote>"Rupkotha has an extraordinary eye for detail and an innate understanding of what users need. The redesign she delivered exceeded every expectation — beautiful and functional."</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--peach)">🌻</div>
+          <div>
+            <div class="testi-name">Priya Sharma</div>
+            <div class="testi-role">Product Lead, Verdant</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <blockquote>"Working with Rupkotha was a joy from start to finish. She listened carefully, asked great questions, and delivered a design system our whole team loves to work with."</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--mint)">🌿</div>
+          <div>
+            <div class="testi-name">James Kowalski</div>
+            <div class="testi-role">CTO, Nova Systems</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <blockquote>"Rupkotha brought so much warmth and creativity to the Blossom project. Our users constantly compliment the look and feel — she truly understands people."</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--lavender)">💜</div>
+          <div>
+            <div class="testi-name">Mia Chen</div>
+            <div class="testi-role">Founder, Blossom App</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-bg" id="contact">
+  <div class="container">
+    <div class="section-label">✦ Get in touch</div>
+    <h2>Let's create together</h2>
+    <div class="contact-inner reveal">
+      <p>Have a project in mind or just want to say hi? I'd love to hear from you! I'm currently open to freelance and full-time opportunities. 🌷</p>
+      <div class="contact-links">
+        <a href="mailto:Rupkotha@hello.com" class="contact-pill cp-rose">Email me</a>
+        <a href="#" class="contact-pill cp-lav">LinkedIn</a>
+        <a href="#" class="contact-pill cp-mint">GitHub</a>
+        <!-- <a href="#" class="contact-pill cp-peach">Dribbble</a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  Made with <span>♥</span> by Rupkotha · 2025 · All rights reserved
+</footer>
+</body>
+</html>
